@@ -123,55 +123,6 @@ public class Pembelian {
     }
 }
 
-// Class Penerbangan
-class Penerbangan {
-    private String nomorPenerbangan;
-    private String bandaraKeberangkatan;
-    private String bandaraTujuan;
-    private String waktuKeberangkatan;
-    private String waktuKedatangan;
-    private float hargaTiket;
-
-    // Constructor
-    public Penerbangan(String nomorPenerbangan, String bandaraKeberangkatan, String bandaraTujuan,
-                       String waktuKeberangkatan, String waktuKedatangan, float hargaTiket) {
-        this.nomorPenerbangan = nomorPenerbangan;
-        this.bandaraKeberangkatan = bandaraKeberangkatan;
-        this.bandaraTujuan = bandaraTujuan;
-        this.waktuKeberangkatan = waktuKeberangkatan;
-        this.waktuKedatangan = waktuKedatangan;
-        this.hargaTiket = hargaTiket;
-    }
-
-    // Method untuk menampilkan detail penerbangan
-    public void tampilDaftarPenerbangan() {
-        System.out.println("Nomor Penerbangan: " + nomorPenerbangan);
-        System.out.println("Keberangkatan dari: " + bandaraKeberangkatan + " ---> Tujuan ke: " + bandaraTujuan);
-        System.out.println("Waktu Keberangkatan: " + waktuKeberangkatan + " ---> Waktu Kedatangan: " + waktuKedatangan);
-        System.out.println("Harga Tiket: Rp " + hargaTiket);
-        System.out.println();
-    }
-}
-
-// Class Penumpang
-class Penumpang {
-    private String NIK;
-    private String namaDepan;
-    private String namaBelakang;
-
-    // Constructor
-    public Penumpang(String NIK, String namaDepan, String namaBelakang) {
-        this.NIK = NIK;
-        this.namaDepan = namaDepan;
-        this.namaBelakang = namaBelakang;
-    }
-
-    // Method untuk menampilkan detail penumpang
-    public void tampilDaftarPenumpang() {
-        System.out.println("NIK: " + NIK);
-        System.out.println("Nama: " + namaDepan + " " + namaBelakang);
-    }
-}
 
 // Class untuk menyimpan pesanan tiket
 class PesananTiket {
@@ -191,3 +142,4 @@ class PesananTiket {
         penerbangan.tampilDaftarPenerbangan();
     }
 }
+
