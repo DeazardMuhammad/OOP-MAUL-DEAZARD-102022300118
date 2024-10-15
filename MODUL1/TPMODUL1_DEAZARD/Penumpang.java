@@ -1,4 +1,4 @@
-package MODUL1_DEAZARD.TPMODUL1_DEAZARD;
+package MODUL1.TPMODUL1_DEAZARD;
 public class Penumpang {
     private String NIK;
     private String namaDepan;

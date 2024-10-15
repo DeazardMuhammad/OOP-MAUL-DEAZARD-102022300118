@@ -1,4 +1,4 @@
-package MODUL1_DEAZARD.TPMODUL1_DEAZARD;
+package MODUL1.TPMODUL1_DEAZARD;
 public class Penerbangan {
     private String nomorPenerbangan;
     private String bandaraKeberangkatan;

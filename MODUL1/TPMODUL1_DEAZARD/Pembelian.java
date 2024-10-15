@@ -1,4 +1,4 @@
-package MODUL1_DEAZARD.TPMODUL1_DEAZARD;
+package MODUL1.TPMODUL1_DEAZARD;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
