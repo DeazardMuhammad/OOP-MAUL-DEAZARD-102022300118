@@ -12,9 +12,9 @@ public class Main {
         kucing.makan("Whiskas");
         kucing.berinteraksi();
 
-        System.out.println("\n--------------------------------\n");
+        System.out.println("\n==============================\n");
 
-        // Burung
+        // Burung 
         Burung burung = new Burung("Elang", 9, "Putih");
         burung.infoHewan();
         burung.suara();
