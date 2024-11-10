@@ -4,10 +4,10 @@ public class Makanan {
     // Todo : Create private attribute of Makanan (nama, jumlah, and harga)
     private String nama;
     private int jumlah;
-    private float harga;
+    private double harga;
         
     // Todo : Create Constructor of Makana
-    public Makanan(String nama, int jumlah, float harga) {
+    public Makanan(String nama, int jumlah, double harga) {
         this.nama = nama;
         this.jumlah = jumlah;
         this.harga = harga;
@@ -25,10 +25,10 @@ public class Makanan {
     public void setJumlah(int jumlah) {
         this.jumlah = jumlah;
     }
-    public float getHarga() {
+    public double getHarga() {
         return harga;
     }
-    public void setHarga(float harga) {
+    public void setHarga(double harga) {
         this.harga = harga;
     }
 }

@@ -17,7 +17,7 @@ public class ManajemenInventaris {
         System.out.print("Masukkan Jumlah Makanan:");
         int jumlah = scanner.nextInt();
         System.out.print("Masukkan Harga Makanan:");
-        float harga = scanner.nextInt();
+        double harga = scanner.nextDouble();
         System.out.print("Masukkan Brand Makanan:");
         String brand = scanner.nextLine();
         // Todo : Create a new object for MakananKering
@@ -25,7 +25,6 @@ public class ManajemenInventaris {
         daftarMakananKering.add(makanan);
         // Todo : Create Print Notifitaction "Makanan kering berhasil ditambahkan"
         System.out.println("Makanan kering berhasil ditambahkan");
-        scanner.close();
     }
 
     public void tambahMakananBasah() {
@@ -36,7 +35,7 @@ public class ManajemenInventaris {
         System.out.print("Masukkan Jumlah Makanan:");
         int jumlah = scanner.nextInt();
         System.out.print("Masukkan Harga Makanan:");
-        float harga = scanner.nextInt();
+        double harga = scanner.nextDouble();
         System.out.print("Masukkan Brand Makanan:");
         String brand = scanner.nextLine();
         // Todo : Create a new object for MakananBasah
@@ -44,7 +43,6 @@ public class ManajemenInventaris {
         daftarMakananBasah.add(makanan);
         // Todo :Create Print Notifitaction "Makanan Basah berhasil ditambahkan"
         System.out.println("Makanan Basah berhasil ditambahkan");
-        scanner.close();
     }
 
     public void tampilkanSemuaMakanan() {
