@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="InventoryController">
+    <children>
+        <!-- TableView -->
+        <TableView fx:id="albumTable" layoutX="20" layoutY="20" prefWidth="400" prefHeight="250">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Album Name" prefWidth="120"/>
+                <TableColumn fx:id="artistColumn" text="Artist" prefWidth="120"/>
+                <TableColumn fx:id="totalColumn" text="Total" prefWidth="50"/>
+                <TableColumn fx:id="availableColumn" text="Available" prefWidth="50"/>
+                <TableColumn fx:id="rentedColumn" text="Rented" prefWidth="50"/>
+            </columns>
+        </TableView>
+
+        <!-- Form -->
+        <Label text="Judul Album" layoutX="440" layoutY="20"/>
+        <TextField fx:id="albumNameField" layoutX="440" layoutY="40" prefWidth="200"/>
+        <Label text="Nama Artist" layoutX="440" layoutY="80"/>
+        <TextField fx:id="artistField" layoutX="440" layoutY="100" prefWidth="200"/>
+        <Label text="Jumlah Total" layoutX="440" layoutY="140"/>
+        <TextField fx:id="totalField" layoutX="440" layoutY="160" prefWidth="200"/>
+        <Label text="Jumlah Tersedia" layoutX="440" layoutY="200"/>
+        <TextField fx:id="availableField" layoutX="440" layoutY="220" prefWidth="200"/>
+
+        <!-- Buttons -->
+        <Button text="Rent Selected" layoutX="440" layoutY="260" prefWidth="90" onAction="#handleRent"/>
+        <Button text="Tambah" layoutX="540" layoutY="260" prefWidth="90" onAction="#handleTambah"/>
+        <Button text="Hapus" layoutX="440" layoutY="300" prefWidth="90" onAction="#handleHapus"/>
+        <Button text="Update" layoutX="540" layoutY="300" prefWidth="90" onAction="#handleUpdate"/>
+    </children>
+</AnchorPane>
